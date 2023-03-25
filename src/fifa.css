@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 252, 247);
+}
+
+.App {
+    max-width: 72rem;
+    margin-inline: auto;
+}
+
+.title-container {
+    display: flex;
+    border: 2px solid black;
+    gap: 1rem;
+    border-top: transparent;
+}
+
+.title-container img {
+    border-right: 2px solid black;
+    padding-inline: 1rem;
+}
+
+.title-container h1 {
+    align-self: center;
+    font-size: 4rem;
+    margin-inline: auto;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 26.25% 70%;
+    border-bottom: 2px solid;
+    margin-bottom: 2rem;
+}
+
+.description {
+    border-right: 2px solid black;
+    padding-inline: 1rem;
+}
+
+.description p, .ranking{
+    margin-top: 2rem;
+}
+
+.description-text, .ranking p {
+    font-size: 1.25ch;
+}
+
+.ranking p {
+    margin-block: 1.5rem 2.5rem;
+}
+
+article img {
+    margin-bottom: 1rem;
+}
